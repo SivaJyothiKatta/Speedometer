@@ -1,0 +1,181 @@
+/* Write your CSS here */
+
+.speedometer-container {
+  background-color: #07080c;
+  font-family: Roboto;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometer-heading {
+  font-style: italic;
+  font-size: 10px;
+}
+
+.speedometer-image {
+  width: 50px;
+  height: 30px;
+}
+
+.speedometer-sub-heading {
+  font-size: 10px;
+}
+
+.speedometer-count {
+  font-size: 10px;
+}
+
+.speedometer-description {
+  font-size: 8px;
+  color: #cbd5e1;
+}
+
+.speedometer-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometer-accelerate {
+  background-color: #0b69ff;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  margin-right: 10px;
+}
+
+.speedometer-apply-brake {
+  color: #94a3b8;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #94a3b8;
+  background: none;
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .speedometer-heading {
+    font-size: 15px;
+  }
+
+  .speedometer-image {
+    width: 80px;
+    height: 50px;
+  }
+
+  .speedometer-sub-heading {
+    font-size: 15px;
+  }
+
+  .speedometer-count {
+    font-size: 15px;
+  }
+
+  .speedometer-description {
+    font-size: 10px;
+    color: #cbd5e1;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .speedometer-heading {
+    font-size: 20px;
+  }
+
+  .speedometer-image {
+    width: 100px;
+    height: 80px;
+  }
+
+  .speedometer-sub-heading {
+    font-size: 20px;
+  }
+
+  .speedometer-count {
+    font-size: 20px;
+  }
+
+  .speedometer-description {
+    font-size: 12px;
+    color: #cbd5e1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .speedometer-heading {
+    font-size: 25px;
+  }
+
+  .speedometer-image {
+    width: 150px;
+    height: 100px;
+  }
+
+  .speedometer-sub-heading {
+    font-size: 25px;
+  }
+
+  .speedometer-count {
+    font-size: 25px;
+  }
+
+  .speedometer-description {
+    font-size: 14px;
+    color: #cbd5e1;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .speedometer-heading {
+    font-size: 30px;
+  }
+
+  .speedometer-image {
+    width: 200px;
+    height: 120px;
+  }
+
+  .speedometer-sub-heading {
+    font-size: 30px;
+  }
+
+  .speedometer-count {
+    font-size: 30px;
+  }
+
+  .speedometer-description {
+    font-size: 16px;
+    color: #cbd5e1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .speedometer-heading {
+    font-size: 35px;
+  }
+
+  .speedometer-image {
+    width: 250px;
+    height: 150px;
+  }
+
+  .speedometer-sub-heading {
+    font-size: 35px;
+  }
+
+  .speedometer-count {
+    font-size: 35px;
+  }
+
+  .speedometer-description {
+    font-size: 18px;
+    color: #cbd5e1;
+  }
+}
